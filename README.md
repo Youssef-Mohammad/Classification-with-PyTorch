@@ -4,3 +4,7 @@ We've used the 'make_circles' function to create a cirle like data and then try 
 In version V1 we've created the basic bricks for the model, but we've faced the problem of non-linearity.
 We've fixed that in V2 by using a non_linear activation function, which is the rectified lineat unit (ReLu).
 the model accuracy then went very well.
+
+Important Note:
+BCE receives the prediction probability as input, but
+BCEWithLogits receives the raw logits as input.
